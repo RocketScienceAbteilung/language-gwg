@@ -1,0 +1,17 @@
+'fileTypes': [
+  'gwt'
+]
+'name': 'Gitwig Track'
+'scopeName': 'source.gwt'
+'patterns': [
+  {
+    'match': '([.,\\s]+)(.+):(\\d+)'
+    'captures':
+      '1':
+        'name': 'constant.numeric.integer.hexadecimal.python'
+      '2':
+        'name': 'markup.heading.gfm'
+      '3':
+        'name': 'comment.line.documentation.python'
+  }
+]

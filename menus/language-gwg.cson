@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle language-gwg'
+      'command': 'language-gwg:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'language-gwg'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'language-gwg:toggle'
+        }
+      ]
+    ]
+  }
+]

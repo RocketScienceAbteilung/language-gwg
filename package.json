@@ -1,0 +1,16 @@
+{
+  "name": "language-gwg",
+  "main": "./lib/language-gwg",
+  "version": "0.0.1",
+  "description": "Support the Gitwig syntax",
+  "activationCommands": {
+    "atom-workspace": "language-gwg:toggle"
+  },
+  "repository": "https://github.com/RocketScienceAbteilung/language-gwg",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
