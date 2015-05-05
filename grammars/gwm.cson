@@ -1,0 +1,17 @@
+'fileTypes': [
+  'gwm'
+]
+'name': 'Gitwig Mono Track'
+'scopeName': 'source.gwm'
+'patterns': [
+  {
+    'match': '([CDEFGAB])([b\\#]?)-?(\\d)\\s(\\d{2})\\s(\\d{3})'
+    'captures':
+      '1':
+        'name': 'constant.numeric.integer.hexadecimal.python'
+      '2':
+        'name': 'constant.numeric.integer.hexadecimal.python'
+      '3':
+        'name': 'constant.string.python'
+  }
+]

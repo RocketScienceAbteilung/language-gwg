@@ -1,8 +1,8 @@
 'fileTypes': [
-  'gwt'
+  'gwd'
 ]
-'name': 'Gitwig Track'
-'scopeName': 'source.gwt'
+'name': 'Gitwig Drum Track'
+'scopeName': 'source.gwd'
 'patterns': [
   {
     'match': '([.,\\s]+)(.+):(\\d+)'
@@ -12,6 +12,6 @@
       '2':
         'name': 'markup.heading.gfm'
       '3':
-        'name': 'comment.line.documentation.python'
+        'name': 'constant.string.python'
   }
 ]
