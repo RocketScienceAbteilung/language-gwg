@@ -10,8 +10,16 @@
       '1':
         'name': 'constant.numeric.integer.hexadecimal.python'
       '2':
-        'name': 'markup.heading.gfm'
+        'name': 'markup.heading.gwm'
       '3':
         'name': 'constant.string.python'
+  }
+  {
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.gwd'
+    'end': '$\\n?'
+    'name': 'comment.line.percentage.semicolon.gwd'
   }
 ]

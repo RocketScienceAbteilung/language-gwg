@@ -15,7 +15,8 @@
         {
           'label': 'Toggle'
           'command': 'language-gwg:toggle'
-        }
+        },
+        { 'label': 'Stop', 'command': 'git-wig:stop' }
       ]
     ]
   }

@@ -7,7 +7,7 @@ class LanguageGwgView
 
     # Create message element
     message = document.createElement('div')
-    message.textContent = "The LanguageGwg package is Alive! It's ALIVE!"
+    message.textContent = "Gitwig"
     message.classList.add('message')
     @element.appendChild(message)
 
