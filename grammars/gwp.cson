@@ -1,0 +1,29 @@
+'fileTypes': [
+  'gwp'
+]
+'name': 'Gitwig Polyphonic Track'
+'scopeName': 'source.gwp'
+'patterns': [
+  {
+    'match': '([CDEFGAB])([b\\#]?)-?(\\d)\\s((?:[\\+\\-][0-9a-fA-F]){1,})'
+    'captures':
+      '1':
+        'name': 'constant.numeric.integer.hexadecimal.gwp'
+      '2':
+        'name': 'constant.numeric.integer.hexadecimal.gwp'
+      '3':
+        'name': 'constant.string.gwp'
+      '4':
+        'name': 'entity.name.function.gwp'
+      '5':
+        'name': 'constant.string.gwp'
+  }
+  {
+    'begin': '#'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.comment.gwd'
+    'end': '$\\n?'
+    'name': 'comment.line.percentage.semicolon.gwd'
+  }
+]

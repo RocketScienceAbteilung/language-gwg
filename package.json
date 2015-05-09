@@ -1,7 +1,7 @@
 {
   "name": "language-gwg",
   "main": "./lib/language-gwg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Support the Gitwig syntax",
   "activationCommands": {
     "atom-workspace": "language-gwg:toggle"
